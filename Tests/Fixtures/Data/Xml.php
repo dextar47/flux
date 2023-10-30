@@ -8,12 +8,8 @@ namespace FluidTYPO3\Flux\Tests\Fixtures\Data;
  * LICENSE.md file that was distributed with this source code.
  */
 
-/**
- * Xml
- */
 class Xml
 {
-
     const SIMPLE_FLEXFORM_SOURCE_DEFAULT_SHEET_ONE_FIELD = '<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <T3FlexForms>
     <data>
@@ -35,7 +31,7 @@ class Xml
                 <field index="settings.input">
                     <value index="vDEF">0</value>
                 </field>
-                <field index=""></field>
+                <field index="empty"></field>
             </language>
         </sheet>
         <sheet index="second"></sheet>
@@ -49,25 +45,29 @@ class Xml
                 <field index="settings.input">
                     <value index="vDEF">0</value>
                 </field>
+                <field index="settings.preserved">
+                    <value index="vDEF">0</value>
+                </field>
                 <el index="section">
                     <field index="nested">
                         <value index="vDEF">test</value>
                     </field>
-                    <field index=""></field>
+                    <field index="empty"> </field>
                 </el>
                 <el>
                     <field index="nested">
                         <value index="vDEF">test</value>
                     </field>
-                    <field index=""></field>
+                    <field index="empty"> </field>
+                    <field index="id"><value index="vDEF">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</value></field>
                 </el>
                 <el>
-					<field index="id">
-						<value index="vDEF">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</value>
-					</field>
-					<field index=""></field>
-				</el>
-                <field index=""></field>
+                    <field index="id">
+                        <value index="vDEF">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</value>
+                    </field>
+                    <field index="empty"> </field>
+                </el>
+                <field index="empty"> </field>
             </language>
         </sheet>
     </data>
